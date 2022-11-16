@@ -1,0 +1,971 @@
+body
+{
+    background-color: black;
+}
+
+
+.clock {
+    position: absolute;
+    margin-right: 50px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+   
+
+
+}
+#loader
+{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#showname
+{
+    background-color: yellow;
+    border-radius: 2vh;
+}
+
+#loader img 
+{
+    position: absolute;
+    width: 20%;
+}
+#nav2{
+    background-color: transparent;
+    padding: 0;
+    
+}
+
+#btnSignUp
+{
+    border: 1px solid #ffc107;
+    border-radius: 5px;
+    background-color: #ffc107;
+    color: white;
+    padding: 5px;
+}
+#btnSignUp:hover
+{
+    background-color: gray;
+    transition: 1s;
+}
+#btnSignIn:hover
+{
+    background-color: gray;
+    transition: 1s;
+}
+#btnSignIn
+{
+    padding: 5px;
+    border: 1px solid #ffc107;
+    border-radius: 5px;
+    background-color: #ffc107;
+    color: white;
+}
+#btnSignIn1
+{
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: white;
+}
+#nav2 img
+{
+    height: 18vh;
+}
+#nav2 a
+{
+    font-weight: 500;
+    color: lightgreen;
+}
+#nav2 a:hover
+{
+    color: #ffc107;
+    transition: 2s;
+}
+.div1
+{
+    padding-right: 35px;
+}
+.div1 ul li{
+    padding-right: 20px;
+    text-align: center;
+}
+#entertainmentdiv
+{
+    background-color: black;
+    opacity: 0.8;
+}
+#entertainmentdiv .dropdown-item:hover
+{
+    background-color: transparent;
+}
+#btnnav
+{
+color: black;
+}
+.aboutheading
+{
+    color:rgb(47, 172, 47);
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.aboutustext
+{
+    color: lightgreen;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 190%;
+}
+.mainaboutdiv
+{
+    width: 95%;
+}
+.homediv
+{
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(people-2653221_1280.jpg);
+    background-attachment: fixed;
+}
+.welcome
+{
+    color: blanchedalmond;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 20%;
+    font-size: 65px;
+
+}
+.homepgbtn
+{
+    background-color: black;
+    opacity: 0.8;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    animation-name: examplee;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+    
+}
+.homepgbtn a{
+    text-decoration: none;
+    animation-name: example;
+    animation-duration: infinite;
+    animation-name: example;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    
+     from {color: lightgreen; }
+    to  {color: yellow;}
+  }
+  @keyframes examplee {
+    
+    0% {margin-top: 0px;}
+  50% {margin-top: 10px;}
+  100% {margin-top: 0px ;}
+ }
+ .rides
+ {
+    
+    background-color: purple;
+    height: 400px;
+    border-radius: 5%;
+
+ }
+ .rides:hover
+{
+    background: transparent;
+    border: 1px solid lightgreen;
+    transition: 1s;
+    color: lightgreen;
+}
+.rides:hover .h22
+{
+    color: lightpink;
+    transition: 1s;
+}
+.rides:hover .h22p
+{
+    color: lightgreen;
+    transition: 1s;
+}
+.rides:hover .entpgbtn1
+{
+    background-color: blanchedalmond;
+    transition: 3s;
+}
+ .restaurants
+ {
+
+    background-color: lightgreen;
+    height: 400px;
+    border-radius: 5%;
+ }
+ .restaurants:hover
+ {
+     background: transparent;
+     border: 1px solid lightgreen;
+     transition: 1s;
+     color: lightgreen;
+ }
+ .restaurants:hover .h221
+{
+    color: lightpink;
+    transition: 1s;
+}
+.restaurants:hover .h221p
+{
+    color: lightgreen;
+    transition: 1s;
+}
+.restaurants:hover .entpgbtn2
+{
+    background-color: blanchedalmond;
+    transition: 3s;
+}
+ .indoor
+ {
+
+    background-color: #ffc107;
+    height: 400px;
+    border-radius: 5%;
+ }
+ .indoor:hover
+{
+    background: transparent;
+    border: 1px solid lightgreen;
+    transition: 1s;
+    color: lightgreen;
+}
+.indoor:hover .h2212
+{
+    color: lightpink;
+    transition: 1s;
+}
+.indoor:hover .h2212p
+{
+    color: lightgreen;
+    transition: 1s;
+}
+.indoor:hover .entpgbtn3
+{
+    background-color: blanchedalmond;
+    transition: 3s;
+}
+ .play
+ {
+
+    background-color: aqua;
+    height: 400px;
+    border-radius: 5%;
+ }
+ .play:hover
+{
+    background: transparent;
+    border: 1px solid lightgreen;
+    transition: 1s;
+    color: lightgreen;
+}
+.play:hover .h22123
+{
+    color: lightpink;
+    transition: 1s;
+}
+.play:hover .h22123p
+{
+    color: lightgreen;
+    transition: 1s;
+}
+.play:hover .entpgbtn4
+{
+    background-color: blanchedalmond;
+    transition: 3s;
+}
+.h22
+{
+    font-family: 'Roboto', sans-serif;
+    color: lightpink;
+}
+.h22p
+{
+    color: darkkhaki;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.h221
+{
+    font-family: 'Roboto', sans-serif;
+    color: purple;
+}
+.h221p
+{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.h2212
+{
+    font-family: 'Roboto', sans-serif;
+    color: darkcyan;
+}
+.h2212p
+{
+    color: darkblue;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.h22123
+{
+    font-family: 'Roboto', sans-serif;
+    color: purple;
+}
+.h22123p
+{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.entpgbtn1
+{
+    color: blue;
+    background-color: black;
+    opacity: 0.8;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+}
+.entpgbtn1 a{
+  text-decoration: none;
+  
+}
+.entpgbtn2
+{
+    color: blue;
+    background-color: black;
+    opacity: 0.8;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+}
+.entpgbtn2 a{
+  text-decoration: none;
+  
+}
+.entpgbtn3
+{
+    color: blue;
+    background-color: black;
+    opacity: 0.8;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+}
+.entpgbtn3 a{
+  text-decoration: none;
+  
+}
+.entpgbtn4
+{
+    color: blue;
+    background-color: black;
+    opacity: 0.8;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+}
+.entpgbtn4 a{
+  text-decoration: none;
+  
+}
+@media screen and (max-width: 767px) {
+    #entertainment #restaurants
+    {
+        margin-top: 10vh;
+    }
+    #entertainment #playarea
+    {
+        margin-top: 10vh;
+    }
+  }
+  .premium
+  {
+    
+    background-image: url(birthday-backdrop-vintage-amusement-park-photo-backdrop-carnival-party-decor-boardwalk-ferris-wheel-roller-coaster-background-midway-pro-10ft-w-x-8ft-h-w-o-floor-31799838277823_300x.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+     height: 400px;
+     box-sizing: border-box;
+     border-radius: 5%;
+  }
+  .premium h2
+  {
+    color: blanchedalmond;
+  }
+  .premium h4
+  {
+    color: blanchedalmond;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .premium p
+  {
+    color: blanchedalmond;
+    font-weight: bold;
+    opacity: 3.0;
+  }
+  .premiumtext
+  {
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 5px;
+  }
+ 
+  @media screen and (max-width: 767px) 
+  {
+    .premium
+    
+        {
+            margin-top: 10vh;
+        }
+  }
+  .basicbtn
+  {
+      background-color: black;
+      opacity: 0.8;
+      font-weight: bold;
+      padding: 10px;
+      color: blue;
+      border-radius: 8px;
+  }
+  .basicbtn a{
+    text-decoration: none;
+    
+  }
+  td
+  {
+    color: blanchedalmond;
+  }
+  .basic
+  {
+     
+    background-image: url(istockphoto-1237634673-170667a.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+     height: 400px;
+     box-sizing: border-box;
+     border-radius: 5%;
+ 
+  }
+  .basic h4
+  {
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .basic p
+  {
+    color: blanchedalmond;
+    font-weight: bold;
+    opacity: 3.0;
+  }
+  .basictext
+  {
+      background-color: black;
+      opacity: 0.6;
+      border-radius: 5px;
+  }
+  .map
+  {
+    background: purple;
+    color: black;
+    float: left;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+    
+  }
+  .address
+{
+    color: lightgreen;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+    font-size: x-large;
+  }
+  
+  .contactcolor
+  {
+    background-color: purple;
+    border-radius: 10px;
+  }
+  .mapp
+  {
+    color: lightgreen;
+    padding-right: 10px;
+  }
+  .contactcolor:hover
+  {
+     background: transparent;
+     border: 1px solid lightgreen;
+     transition: 2s;
+     color: purple;
+  }
+  .contactcolor:hover .address
+  {
+    text-decoration: none;
+    color: #ffc107;
+    transition: 2s;
+  }
+  @media screen and (max-width: 767px) 
+  {
+    .contactcolor
+    
+        {
+            margin-top: 10vh;
+        }
+  }
+  .mainmap
+  {
+      border-radius: 10px;
+  }
+  .btnfeed
+  {
+    background-color: brown;
+    opacity: 0.8;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid brown;
+    height: 50px;
+  }
+  
+  .feeda
+  {
+    color: #ffc107;
+    background-color: transparent;
+  }
+.btnfeed:hover .feeda
+{
+   transition: 1s;
+   text-decoration: none;
+   color: blanchedalmond;
+}
+.btnfeed:hover
+{
+    background-color: brown;
+    border: 1px solid brown;
+    transition: 1s;
+}
+.footer
+{
+    background-color: #1a172f;
+   
+}
+.footerimg
+{
+    height: 10vh;  
+}
+.fb
+{
+    color: #1a172f;
+    background-color: blanchedalmond;
+    float: left;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+}
+.fb:hover
+{
+    background-color: #ffc107;
+    transition: 1s;
+}
+.footul
+{
+    list-style: none;
+    margin-left: 2px;
+    
+}
+.footul li
+{
+    margin-right: 10px;
+}
+.footpage
+{
+    color: rgb(8, 202, 8);
+    margin-top: 0;
+    font-weight: 700;
+}
+.pageul
+{
+    list-style: none;
+ 
+}
+.pageul li a
+{
+    color: lightgreen;
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+}
+.pageul li a:hover
+{
+    text-decoration: none;
+    color: #ffc107;
+    transition: 1s;
+}
+.back-to-top
+ {
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: purple;
+  width: 40px;
+  height: 40px;
+ border-radius: 50%;
+ transition: all 0.4s;
+ position: fixed;
+ }
+.back-to-top.active
+ {
+   visibility: visible;
+   opacity: 1;
+  }
+ .back-to-top:hover
+  {
+ background-color: #ffc107;
+ }
+ .pageul li p
+{
+    color: blanchedalmond;
+    font-weight: 700;
+}
+.footlocate
+{
+    color: blanchedalmond;
+    
+}
+
+.twitterli a
+{
+ color: blanchedalmond; 
+}
+.footmap1
+{
+    color: blanchedalmond;
+}
+.footnum
+{
+    color: #21aaf7;
+    font-weight: 600;
+}
+.footnum:hover
+{
+    color: blanchedalmond;
+    transition: 1s;
+}
+.copyright
+{
+    color: white;
+    font-size: medium;
+}
+.cnt
+{
+    color: blanchedalmond;
+  
+}
+.divider
+{
+    position: relative;
+    text-align: center;
+    margin: 15px 0px;
+}
+.divider span
+{
+padding: 8px;
+position: relative;
+z-index: 2;
+}
+.divider::after{
+content: "";
+position: absolute;
+width: 100%;
+border-bottom: 2px solid #ddd;
+top: 50%;
+left: 0;
+z-index: 1;
+
+}
+#req2
+{
+    display: none;
+    color: red;
+}
+#req6
+{
+    display: none;
+    color: red;
+}
+#req3
+{
+    display: none;
+    color: red;
+}
+#req5
+{
+    display: none;
+    color: red;
+}
+#req4
+{
+    display: none;
+    color: red;
+}
+#req1
+{
+    display: none;
+    color: red;
+}
+
+#rideblockp
+{
+    color: lightgreen;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-transform: capitalize;
+  
+}
+#rideblockpp
+{
+    color: lightgreen;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+#ridehead
+{
+    color:rgb(47, 172, 47);
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.carouselId1
+{
+    color: purple;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+}
+.enterjpg
+{
+    height: 30vh;
+    
+}
+#rideblockppp
+{
+    color: lightgreen;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+#rideblock
+{
+    display: none;
+}
+#restaurantblock
+{
+    display: none;
+}
+#indoorblock
+{
+    display: none;
+}
+#playblock
+{
+    display: none;
+}
+#rideblockpppp
+{
+    color: purple; 
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+#ridehead1
+{
+    color: purple;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.entpgbtn11
+{
+    color: blue;
+    background-color: black;
+    border: 2px solid gray;
+    opacity: 0.8;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+}
+.entpgbtn11 a
+{
+    text-decoration: none;
+}
+.entpgbtn11:hover
+{
+ color: darkblue;
+ background-color: lightcyan;
+ transition: 2s;
+}
+.pricebtn
+{
+    background-color: brown;
+    opacity: 0.8;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid brown;
+    color: #ffc107;
+    height: 30px;
+    width: 100px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.panel-container {
+  background-color: #12192c;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  font-size: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  max-width: 400px;
+  color:#4e54c8;
+  margin:10% auto 2% auto;
+}
+
+.panel-container strong {
+  line-height: 20px;
+}
+
+.ratings-container {
+  display: flex;
+  margin: 20px 0;
+}
+
+.rating {
+  flex: 1;
+  cursor: pointer;
+  padding: 20px;
+  margin: 10px 5px;
+}
+
+.rating:hover,
+.rating.active {
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.rating img {
+  width: 40px;
+}
+
+.rating small {
+  color: #fff;
+  display: inline-block;
+  margin: 10px 0 0;
+}
+
+.rating:hover small,
+.rating.active small {
+  color: #8f94fb;
+}
+
+
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.fa-heart {
+  color: red;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.btn145 {
+    background-color: #8f94fb;
+    color: #000;
+    border: 0;
+    border-radius: 4px;
+    padding: 12px 30px;
+    cursor: pointer;
+  }
+
+.credit a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .credit {
+      text-align: center;
+  }
+.modal-content
+{
+    background-color: rgb(1, 1, 31);
+}
+.modal-title
+{
+    color: blanchedalmond;
+}  
+.customized
+  {
+     
+    background-image: url(customized.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+     height: 400px;
+     box-sizing: border-box;
+     border-radius: 5%;
+ 
+  }
+  .customized h2
+  {
+    color: blanchedalmond;
+  }
+  

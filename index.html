@@ -1,0 +1,1826 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Keansburg - Amusement Park</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" 
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fullPage.js-master/dist/fullpage.css">
+    <link rel="icon" type="image/x-icon" href="/symbol.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+       <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="index.css"> 
+<script>
+    window.onload = function() {document.getElementById('loader').style.display = "none";}
+</script>
+</head>
+
+  <body id="bb">
+    <div id="loader"><img src="loader.gif" alt=""></div>
+<nav class="fixed-top">
+<b> <marquee style="color: whitesmoke;" width="100%" direction="right" id="MyClockDisplay" class="clock sticky-top" onload="showTime()"></marquee>
+</b> 
+</nav>
+   
+ <nav  style="opacity: 0.7;background-color: black; margin-top: 0;"  id="nav2" class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <img src="keansburg (4).png" alt="">
+        <button id="btnnav" class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse div1" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+             
+                <li class="nav-item active">
+                    <a class="nav-link" href="#hero"><b>Home</b> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link" href="#about"><b>About Us</b> </a>
+               </li>
+               <li class="nav-item dropdown">
+                   <a class="nav-link dropdown" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Entertainment <i class="fa fa-angle-down" aria-hidden="true"></i> </b></a>
+                   <div id="entertainmentdiv" class="dropdown-menu" aria-labelledby="dropdownId">
+                       <a class="dropdown-item" href="#rides">Rides & Attractions</a>
+                       <a class="dropdown-item" href="#restaurants">Restaurants</a>
+                       <a class="dropdown-item" href="#indoorgames">Indoor Games</a>
+                       <a class="dropdown-item" href="#playarea">Play Area</a>
+                       
+   
+                   </div>
+               </li>
+                
+               <li class="nav-item">
+                   <a class="nav-link" href="#ticketnprices"><b>Tickets & Prices</b></a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="#contact"><b>Contact Us</b></a>
+               </li>
+               <li id="showname" class="nav-item">
+                <a style="color: black;" class="nav-link"><b>Welcome <span id="shown"></span> </b></a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+<br>
+<br>
+  
+    <section class="section homediv" id="hero">
+       
+    <div class="img-fluid">
+        <center>
+            <b><h1 class="welcome" data-aos="zoom-in" data-aos-duration="2000">Welcome To Keansburg Amusement Park</h1></b>
+        <br>
+    <button class="homepgbtn"><a href="#ticketnprices">Book Your Ticket Now</a></button></center>
+    </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section class="section" id="about">
+         <div class="mainaboutdiv container" data-aos="fade-up" data-aos-duration="2000" >
+         <div class="about">
+         <center>
+         <h1 class="aboutheading">
+             About Us
+         <hr style="border: 1px solid  #ffc107;width: 5%;">
+         </h1>
+        </center>
+    </div>
+    
+    <br>
+    
+    <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000" >
+        <p class="aboutustext">Keansburg park is a park that features various attractions, such as rides and games, as well as other events for entertainment purposes. In 1904, William Gehlhaus convinced five investors to join him in purchasing an area of marshland overlooking Raritan Bay, in hopes of creating a resort area. In 1909, Gehlhaus founded the Keansburg Steamboat Company to bring visitors across the bay from New York City. The borough of Keansburg, which was incorporated in 1917, basically grew up around William Gehlhaus' vision of summertime fun. And 110 years later, Keansburg, "the gem of the Bayshore," is still best known for its namesake amusement park. Keansburg Amusement Park now offers over 40 rides including kiddie family and thrill rides.  It is our commitment to ensuring all of our guests have a safe and enjoyable visit.</p>
+    </div>
+    </div>
+     </section>
+     <br>
+     <br>
+    <section class="section" id="entertainment">
+    <div class="entertainmentdiv container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+    <div class="entertainment">
+        <center>
+            <h1 class="aboutheading">
+                Entertainment
+            <hr style="border: 1px solid #ffc107;width: 5%;">
+            </h1>
+           </center>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+    <div class="col-lg-5 col-md-5 col-sm-12 rides container" id="rides" data-aos="flip-left" data-aos-delay="200" data-aos-duration="2000">
+        <br>
+     <center>
+        <img src="rides.jpg" alt="" height="120px">
+        <br> 
+        <br>
+     <h2 class="h22">Rides & Attractions <hr style="width: 10%;border: 1px solid #ffc107 ;"></h2>
+     
+     <p class="h22p">Enjoy a wide range of fun and thrilling rides for all ages all under one roof!</p>
+     
+     <button class="entpgbtn1" id="entbtnn1" ><a href="#rideblock">Explore!</a></button>
+    </center>
+    </div>
+    
+    <div class="col-lg-5 col-md-5  col-sm-12 restaurants container" id="restaurants" data-aos="flip-right" data-aos-delay="300" data-aos-duration="2000">
+        <br>
+        <center>
+           <img src="restaurants.jpg" alt="" height="120px">
+           <br>
+           <br>
+        <h2 class="h221">Restaurants <hr style="width: 10%;border: 1px solid blue;"></h2>
+    
+        <p class="h221p">Part of the secret of Success in life is to Eat what you like and let the Food fight it out inside.</p>
+        <button class="entpgbtn2" id="entbtnn2" ><a href="#restaurantblock">Explore!</a></button>
+       </center>
+    </div>
+    </div>
+    </section>
+    <br>   <br> <br>
+    <section id="rideblock">
+        <center>
+        <br>
+        <br>
+        <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">  
+           <h1 class="container" id="ridehead" >
+           Rides & Attractions
+       <hr style="border: 1px solid #ffc107;width: 5%;">
+       </h1>
+       <br>
+       <p id="rideblockp">Buckle Up And Enjoy The Ride</p>
+       <p id="rideblockpp">The family that rides together smiles together. Make new memories on Adventure Land many family rides, designed for wonderful moments filled with laughter, smiles and fun</p>
+      </center>
+      <br><br>
+      <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+       
+      <br>
+      </div>
+      <div class="owl-carousel owl-theme container"data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+       <div class="item">
+        <center>
+        <h2 class="carouselId1" id="carouselId1">
+            ENTERPRISE RIDE 
+            <hr style="border: 1px solid #ffc107;width: 5%;"></h2>
+         </center>
+         <br>
+         <img src="enter1.jpg" alt="" height="175px"> 
+         <br>
+         <center>
+            <p id="rideblockppp">The Enterprise is an amusement ride, manufactured primarily by HUSS Park Attractions and Anton Schwarzkopf beginning in 1972.</p>
+        <br>
+        <div class="pricebtn">
+            <p class="feeda">Price: 5$</p>
+        </div>
+        <br>
+       <button class="entpgbtn11"><a href="#ticketnprices">Buy Now!</a></button>
+     </center>
+    </div>
+    <div class="item">
+        <center>
+        <h2 class="carouselId1" id="carouselId1">
+            KIDDIE RIDE 
+            <hr style="border: 1px solid #ffc107;width: 5%;"></h2>
+         </center>
+         <br>
+         <img src="enter2.jpg" alt="" height="175px"> 
+         <br>
+         <center>
+             <p id="rideblockppp">A kiddie ride - or kids' ride - is a coin-operated amusement ride for young children. Kiddie rides are commonly available in amusement parks.</p>
+             <br>
+             <div class="pricebtn">
+                 <p class="feeda">Price: 5$</p>
+             </div>
+             <br>
+             <button class="entpgbtn11"><a href="#ticketnprices">Buy Now!</a></button> 
+       </center>  
+    </div>
+    <div class="item">
+        <center>
+        <h2 class="carouselId1" id="carouselId1">
+             PIRATE SHIP
+            <hr style="border: 1px solid #ffc107;width: 5%;"></h2>
+         </center>
+         <br>
+         <img src="enter3.jpg" alt="" height="175px"> 
+         <br>
+         <center>
+             <p id="rideblockppp">A pirate ship is a type of amusement ride based on pirate ships, consisting of an open,Seated gondola which swings back and forth, subjecting the rider. </p>
+             <br>
+             <div class="pricebtn">
+                 <p class="feeda">Price: 5$</p>
+             </div>
+             <br>
+             <button class="entpgbtn11"><a href="#ticketnprices">Buy Now!</a></button>
+       </center>  
+    </div>
+    <div class="item">
+        <center>
+        <h2 class="carouselId1" id="carouselId1">
+             RANGER
+            <hr style="border: 1px solid #ffc107;width: 5%;"></h2>
+         </center>
+         <br>
+         <img src="enter4.jpg" alt="" height="175px"> 
+         <br>
+         <center>
+             <p id="rideblockppp">Traumboot The main difference between the two rides being the side profile is flat, as opposed to the banana-shaped profile of the Ranger. </p>
+             <br>
+             <div class="pricebtn">
+                 <p class="feeda">Price: 5$</p>
+             </div>
+             <br>
+             <button class="entpgbtn11"><a href="#ticketnprices">Buy Now!</a></button>
+       </center>  
+    </div>
+    <div class="item">
+        <center>
+        <h2 class="carouselId1" id="carouselId1">
+             ROLLER COASTER
+            <hr style="border: 1px solid #ffc107;width: 5%;"></h2>
+         </center>
+         <br>
+         <img src="enter7.jpg" alt="" height="175px"> 
+         <br>
+         <center>
+             <p id="rideblockppp">A roller coaster, or rollercoaster, is a type of amusement railroad track designed with tight turns, steep slopes, and sometimes inversions.</p>
+             <br>
+        <div class="pricebtn">
+            <p class="feeda">Price: 5$</p>
+        </div>
+             <br>
+             <button class="entpgbtn11"><a href="#ticketnprices">Buy Now!</a></button>
+       </center>  
+    </div>
+    <div class="item">
+        <center>
+        <h2 class="carouselId1" id="carouselId1">
+             ULTRAMAX
+            <hr style="border: 1px solid #ffc107;width: 5%;"></h2>
+         </center>
+         <br>
+         <img src="enter8.jpg" alt="" height="175px"> 
+         <br>
+         <center>
+             <p id="rideblockppp">Riders are seated on the gondola facing inward or outward. On some models, the entire pendulum makes a full 360 degree swing.</p>
+             <br>
+        <div class="pricebtn">
+            <p class="feeda">Price: 5$</p>
+        </div>
+             <br>
+             <button class="entpgbtn11"><a href="#ticketnprices">Buy Now!</a></button>
+       </center>  
+    </div>
+       
+   </div>
+  
+</div>
+</div>
+
+    </section>
+    <section id="restaurantblock">
+        <center>
+        <br>
+        <br>
+        <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">  
+           <h1 class="container" id="ridehead" >
+           Restaurant
+       <hr style="border: 1px solid #ffc107;width: 5%;">
+       </h1>
+       <br>
+       <p id="rideblockp">Buckle Up And Enjoy The Food</p>
+       <p id="rideblockpp">A restaurant is a business that prepares and serves food and drinks to customers.[1] Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services.</p>
+      </center>
+      <br><br>
+      <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+       
+      <br>
+      </div>
+      <div class="owl-carousel owl-theme container"data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+       <div class="item">
+        <center>
+        <h2 class="carouselId1" id="carouselId1">
+            STARTERS 
+            <hr style="border: 1px solid #ffc107;width: 5%;"></h2>
+         </center>
+         <br>
+         <img src="ret1.jpg" alt="" height="175px"> 
+         <br>
+         
+            <p id="rideblockp" style="font-size: larger;">Salads:</p>
+       <center><p id="rideblockppp">House Salad; <br> Remain, iceberg red cabbage, carrols, cucmbers and cherry tomatoes.     </p></center> 
+        <br>
+       <center><p id="rideblockppp">Green Miso Salad; <br> Remain, iceberg red cabbage, carrols, cucmbers and cherry tomatoes.     </p></center> 
+<br>
+<p id="rideblockp" style="font-size: larger;">Soups:</p>
+<center><p id="rideblockppp">Porto Bello Bleu Cheese Soup; <br> Grilled  portobellos ina rich mashroom broth paired  with smoky bleu cheese </p></center> 
+ <br>
+<center><p id="rideblockppp">Frenh Onion Soup With Swiss ; <br> Caramelized onion simmered with beef broth, veal stock and vermouth</p></center> 
+
+    </div>
+    <div class="item">
+        <center>
+        <h2 class="carouselId1" id="carouselId1">
+            MAIN COURSE 
+            <hr style="border: 1px solid #ffc107;width: 5%;"></h2>
+         </center>
+         <br>
+         <img src="ret2.jpg" alt="" height="175px"> 
+         <br>
+         
+            <p id="rideblockp" style="font-size: larger;">Sandwiches:</p>
+       <center><p id="rideblockppp">BLT; <br>Bacon, lettuce and tomato and your choice of bread</p></center> 
+        <br>
+       <center><p id="rideblockppp">American Sub Sandwich; <br> Turkey breast, ham, your choice of cheese, shredded lettuce, tomatoes and green peppers.</p></center> 
+<br>
+<p id="rideblockp" style="font-size: larger;">Pasta:</p>
+<center><p id="rideblockppp"> SPAGHETTI; <br> With meaty tomato Bolognese sauce</p></center> 
+ <br>
+<center><p id="rideblockppp">Chili Mac ; <br>Hot beef chili over spaghetti, topped </p></center> 
+<br>
+<p id="rideblockp" style="font-size: larger;">Burgers:</p>
+<center><p id="rideblockppp"> HamBurger; <br>Fresh ground beef, blue cheese and sautéed onions</p></center> 
+ <br>
+<center><p id="rideblockppp">BACON CHEESE BURGER; <br>Fresh ground beef, hickory bacon, Swiss, mozzarella, or American cheddar </p></center> 
+
+    </div>
+    <div class="item">
+        <center>
+        <h2 class="carouselId1" id="carouselId1">
+         DESSERTS 
+            <hr style="border: 1px solid #ffc107;width: 5%;"></h2>
+         </center>
+         <br>
+         <img src="ret3.jpg" alt="" height="175px"> 
+         <br>
+         
+            <p id="rideblockp" style="font-size: larger;">Cakes:</p>
+       <center><p id="rideblockppp">Easy Molten Chocolate Cakes; <br>Bake an impressive dinner party dessert with minimum fuss-these chocolate puddings, also known as chocolate fondant or lava cake, have a lovely gooey centre.</p></center> 
+        <br>
+       <center><p id="rideblockppp">Salted Chocolate & Hazelnut Brownies; <br> Chocolate hazelnut spread ensures these moreish brownies have a fudgy centre. Flecked with pecans and sea salt - they'll be the new go-to brownie recipe</p></center> 
+<br>
+<p id="rideblockp" style="font-size: larger;">Tarts:</p>
+<center><p id="rideblockppp"> Treacel Tart; <br> Treat family and friends to a comforting treacle tart with crumbly pastry and rich filling. A classic British dessert, serve with ice cream or clotted cream</p></center> 
+ <br>
+<center><p id="rideblockppp">Easy CornFlake Tart ; <br>Make this cornflake cake for a fabulously easy family dessert that uses simple ingredients. With a pastry case and jam base, it's delicious served with custard </p></center> 
+
+    </div>
+    <div class="item">
+        <center>
+        <h2 class="carouselId1" id="carouselId1">
+         MEALS 
+            <hr style="border: 1px solid #ffc107;width: 5%;"></h2>
+         </center>
+         <br>
+         <img src="ret4.jpg" alt="" height="175px"> 
+         <br>
+         
+            <p id="rideblockp" style="font-size: larger;">Meal 1:</p>
+      <center><p id="rideblockppp">House Salad <br> HamBurger <br> Easy Molten Chocolate Cakes <br> Mint Lemonade</p></center>
+       <br>
+       <p id="rideblockp" style="font-size: larger;">Meal 2:</p>
+       <center><p id="rideblockppp">Green Miso Salad <br> American Sub Sandwich <br> Treacel Tart <br> Mint Lemonade</p></center>
+        <br>
+        <p id="rideblockp" style="font-size: larger;">Meal 3:</p>
+        <center><p id="rideblockppp">Porto Bello Bleu Cheese Soup <br> Chilli Mac <br> Mint Lemonade</p></center>
+         <br>
+    </div>
+    <div class="item">
+        <center>
+        <h2 class="carouselId1" id="carouselId1">
+            BEVERAGES
+            <hr style="border: 1px solid #ffc107;width: 5%;"></h2>
+         </center>
+         <br>
+         <img src="ret5.jpg" alt="" height="175px"> 
+         <br>
+         
+            <p id="rideblockp" style="font-size: larger;">Mint Lemonade</p>
+            <br>
+            <p id="rideblockp" style="font-size: larger;">Soft Drinks</p>
+            <br>
+            <p id="rideblockp" style="font-size: larger;">Coffee</p>
+            <br>
+            <p id="rideblockp" style="font-size: larger;">Tea</p>
+            <br>
+            <p id="rideblockp" style="font-size: larger;">Fresh Juices</p>
+            <br>
+            <p id="rideblockp" style="font-size: larger;">Mocktails</p>
+            <br>
+            <p id="rideblockp" style="font-size: larger;">Energy Drinks</p>
+
+
+
+
+
+        </div>
+       
+   </div>
+  
+</div>
+</div>
+
+    </section>
+
+    <section class="section" id="entertainment">
+        <div class="entertainmentdiv container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+        <div class="entertainment">
+        </div>
+        <br>
+        <br>
+        
+    <div class="row">
+    <div class="col-lg-5 col-md-5 col-sm-12 indoor container" id="indoorgames" data-aos="flip-left" data-aos-delay="400" data-aos-duration="2000">
+        <br>
+        <center>
+           <img src="indoor.jpg" alt="" height="120px">
+           <br>
+           <br>
+        <h2 class="h2212">Indoor Games <hr style="width: 10%;border: 1px solid purple;"></h2>
+    
+        <p class="h2212p">Keansburg Amusement Park is filled with dozens of exciting rides and fun games.</p>
+        <button class="entpgbtn3" id="entbtnn3"><a href="#indoorblock">Explore!</a></button>
+       </center>
+    </div>
+    
+    <div class="col-lg-5 col-md-5 col-sm-12 play container" id="playarea" data-aos="flip-right" data-aos-delay="500" data-aos-duration="2000">
+        <br>
+        <center>
+           <img src="play.jpg" alt="" height="120px">
+           <br>
+           <br>
+        <h2 class="h22123">Play Area <hr style="width: 10%;border: 1px solid blue;"></h2>
+    
+        <p class="h22123p">Keansburg Amusement Park is filled with dozens of exciting rides and fun games.</p>
+        <button class="entpgbtn4" id="entbtnn4"><a href="#playblock">Explore!</a></button>
+       </center>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+</section>
+
+    <section id="indoorblock">
+        <center>
+        <br>
+        <br>
+        <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">  
+           <h1 class="container" id="ridehead" >
+           Indoor Games
+       <hr style="border: 1px solid #ffc107;width: 5%;">
+       </h1>
+       <br>
+       <p id="rideblockp">Buckle Up And Enjoy The Ride</p>
+       <p id="rideblockpp">Indoor games and sports are a variety of structured games or competitive physical exercises, typically carried out either at home, in a well-sheltered building, or in a specially constructed sport venue such as a gym, a natatorium, an arena or a roofed stadium.</p>
+      </center>
+      <br><br>
+      <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+       
+      <br>
+      </div>
+      <div class="owl-carousel owl-theme container"data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+       <div class="item">
+        <center>
+        <h2 class="carouselId1" id="carouselId1">
+            TABLE TENNIS 
+            <hr style="border: 1px solid #ffc107;width: 5%;"></h2>
+         </center>
+         <br>
+         <img src="ind1.jpg" alt="" height="175px"> 
+         <br>
+         <center>
+             <p id="rideblockppp">Very popular sports among the young generation for which we have exclusive hall with 4 tables dedicated for table tennis.</p>
+             <br>
+             <div class="pricebtn">
+                 <p class="feeda">Price: 2$</p>
+             </div>
+             <br>
+            <button class="entpgbtn11"><a href="#ticketnprices">Buy Now!</a></button>
+       </center>  
+    </div>
+    <div class="item">
+        <center>
+        <h2 class="carouselId1" id="carouselId1">
+            AIR HOCKEY TABLE 
+            <hr style="border: 1px solid #ffc107;width: 5%;"></h2>
+         </center>
+         <br>
+         <img src="ind2.jpg" alt="" height="175px"> 
+         <br>
+         <center>
+             <p id="rideblockppp">Air hockey is a Pong-like tabletop sport where two opposing players try to score goals against each other on a low-friction table.</p>
+             <br>
+             <div class="pricebtn">
+                 <p class="feeda">Price: 2$</p>
+             </div>
+             <br>
+            <button class="entpgbtn11"><a href="#ticketnprices">Buy Now!</a></button>
+       </center>  
+    </div>
+    <div class="item">
+        <center>
+        <h2 class="carouselId1" id="carouselId1">
+            CLAW CRANE
+            <hr style="border: 1px solid #ffc107;width: 5%;"></h2>
+         </center>
+         <br>
+         <img src="ind3.jpg" alt="" height="175px"> 
+         <br>
+         <center>
+             <p id="rideblockppp">A claw crane, claw machine, toy crane, or skill crane is a type of arcade game known as a merchandiser, commonly found in video arcades.</p>
+             <br>
+             <div class="pricebtn">
+                 <p class="feeda">Price: 2$</p>
+             </div>
+             <br>
+            <button class="entpgbtn11"><a href="#ticketnprices">Buy Now!</a></button>
+       </center>  
+    </div>
+    <div class="item">
+        <center>
+        <h2 class="carouselId1" id="carouselId1">
+           ARCADE HOOPS
+            <hr style="border: 1px solid #ffc107;width: 5%;"></h2>
+         </center>
+         <br>
+         <img src="ind4.jpg" alt="" height="175px"> 
+         <br>
+         <center>
+             <p id="rideblockppp">Arcade Hoops Basketball also called Arcade Hoops is a basketball video game developed and published by Skyworks Interactive</p>
+             <br>
+             <div class="pricebtn">
+                 <p class="feeda">Price: 2$</p>
+             </div>
+             <br>
+            <button class="entpgbtn11"><a href="#ticketnprices">Buy Now!</a></button>
+       </center>  
+    </div>
+    <div class="item">
+        <center>
+        <h2 class="carouselId1" id="carouselId1">
+           POOL
+            <hr style="border: 1px solid #ffc107;width: 5%;"></h2>
+         </center>
+         <br>
+         <img src="ind5.jpg" alt="" height="175px"> 
+         <br>
+         <center>
+             <p id="rideblockppp">Pool is a classification of cue sports played on a table with six pockets along the rails, into which balls are deposited.</p>
+             <br>
+             <div class="pricebtn">
+                 <p class="feeda">Price: 2$</p>
+             </div>
+             <br>
+            <button class="entpgbtn11"><a href="#ticketnprices">Buy Now!</a></button>
+       </center>  
+    </div>
+    <div class="item">
+        <center>
+        <h2 class="carouselId1" id="carouselId1">
+          INDOOR PLAYGROUND
+            <hr style="border: 1px solid #ffc107;width: 5%;"></h2>
+         </center>
+         <br>
+         <img src="ind6.jpg" alt="" height="175px"> 
+         <br>
+         <center>
+             <p id="rideblockppp">A indoor playground, playpark, or play area is a place designed to provide an environment for children that facilitates play, typically outdoors.</p>
+             <br>
+             <div class="pricebtn">
+                 <p class="feeda">Price: 2$</p>
+             </div>
+             <br>
+            <button class="entpgbtn11"><a href="#ticketnprices">Buy Now!</a></button>
+       </center>  
+    </div>   
+   </div>
+  
+</div>
+</div>
+</section>
+
+<section id="playblock" class="container">
+    <center>
+    <br>
+    <br>
+    <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">  
+       <h1 class="container" id="ridehead1" >
+       PLAY AREA
+   <hr style="border: 1px solid #ffc107;width: 5%;">
+   </h1>
+   <br>
+   <p id="rideblockp">Place with a specific design for children and other age groups to be able to play there</p>
+   <p id="rideblockpp">Indoor games and sports are a variety of structured games or competitive physical exercises, typically carried out either at home, in a well-sheltered building, or in a specially constructed sport venue such as a gym, a natatorium, an arena or a roofed stadium.</p>
+  </center>
+  <br><br>
+  <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+    <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-12">
+        <img src="play1.jpg" alt="" height="200px">
+        </div>
+        <div class="col-lg-7 col-md-7 col-sm-12 container-fluid">
+          <p id="rideblockpppp" > A playground</p> 
+        <p id="rideblockppp">is an area used by children to play in.They usually have equipment such as slides, swings and seesaws for children to play on.They are usually outside, but sometimes they are in a building.Having a playground can enhance your macadam surface and improve your kids time in the playground.The equipment may be made of metal, wood or plastic. The ground beneath the equipment will not be hard in case a child falls. It may be a rubber floor, or there may be woodchips or sand.Playgrounds give children a place for physical exercise. This helps them get and keep physical fitness and be strong and healthy. Daily exercise reduces the risks of obesity.</p>
+        </div>
+          </div>
+  <br>
+  </div>
+ 
+
+</div>
+</div>
+</section>
+</div> 
+     <br><br>
+    <section class="section" id="ticketnprices">
+        <div class="ticketdiv container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+            <div class="entertainment">
+                <center>
+                    <h1 class="aboutheading">
+                        Tickets & Prices
+                    <hr style="border: 1px solid #ffc107;width: 5%;">
+                    </h1>
+                   </center>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-12 basic container"  data-aos="flip-left" data-aos-anchor-placement="center-bottom" data-aos-delay="200" data-aos-duration="2000">
+                    <br>
+                    <center>
+                        <h2>Basic Package</h2>
+                        <hr style="border: 2px solid green;width: 10%;">
+                        <br>
+                        <h4>$10</h4>
+                        <br>
+                        <button type="button" class="btn basicbtn" data-toggle="modal" data-target="#cartModal2">
+                            Buy Package
+                           </button>  
+                        <br><br>
+                        <div class="basictext"><p>Enter to Keansburg Amusement Park and enjoy your day, having free access to the playing area and 3 rides of your choice. </p></div>
+                    </center>
+                    <br>
+                   
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-12 premium container"  data-aos="flip-right" data-aos-anchor-placement="center-bottom" data-aos-delay="200" data-aos-duration="2000">
+                    <br>
+                    <center>
+                        <h2>Premium Package</h2>
+                        <hr style="border: 2px solid white;width: 10%;">
+                        <br>
+                        <h4>$25</h4>
+                        <br>
+                        <button type="button" class="btn basicbtn" data-toggle="modal" data-target="#cartModal3">
+                            Buy Package
+                           </button>
+                        <br><br>
+                        <div class="premiumtext"><p>Enjoy unlimited indoor Games, single serving meal(One Dish) from any restaurant and 5 rides of your choice.Spend a Joyful day at Keansburg Amusement Park.</p>
+                        </div>
+                    </center>
+                    
+                </div>
+            </div>
+            <br><br><br><br>
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-12 customized container"  data-aos="flip-left" data-aos-anchor-placement="center-bottom" data-aos-delay="200" data-aos-duration="2000">
+                    <br>
+                    <center>
+                        <h2>Customized Package</h2>
+                        <hr style="border: 2px solid green;width: 10%;">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <button type="button" class="btn basicbtn" data-toggle="modal" data-target="#cartModal">
+                               Create A Package
+                              </button>  
+                      <br><br><br>
+                        </center>
+                    <br>
+                   
+                </div>
+            </div>
+        </div>
+     </section>
+      
+      <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Ticket Center
+              </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="table table-image">
+                <thead>
+                  <tr>
+                   
+                    <th scope="col">Product</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Qty</th>
+                    <th scope="col">Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><b>Park Entry</b>(Free access to play area)</td>
+                    <td>5$</td>
+                    <td class="qty"><input type="number" class="form-control" id="input1" min="1" max="1" value="1"></td>
+                    <td><b>5$</b></td>
+                   </tr>
+                   <tr>
+                    <td><b>Rides</b></td>
+                    </tr>
+                    <tr>
+                        <td>Enterprise Ride</td>
+                        <td>5$</td>
+                        <td class="qty"><input id="qtyent" type="number" class="form-control" min="0" max="5" value="0"></td>
+                        <td><b id="cal">-</b><b>$</b></td>
+                       </tr>
+                       <tr>
+                        <td>Pirateship</td>
+                        <td>5$</td>
+                        <td class="qty"><input id="qtypirate" type="number" class="form-control" min="0" max="5" value="0"></td>
+                        <td><b id="cal2">-</b><b>$</b></td>
+                       </tr>
+                       <tr>
+                        <td>Kiddie Ride</td>
+                        <td>5$</td>
+                        <td class="qty"><input id="qtykiddie" type="number" class="form-control" min="0" max="5" value="0"></td>
+                        <td><b id="cal1">-</b><b>$</b></td>
+                       </tr>
+                       <tr>
+                        <td>Ranger Ride</td>
+                        <td>5$</td>
+                        <td class="qty"><input id="qtyranger" type="number" class="form-control" min="0" max="5" value="0"></td>
+                        <td><b id="cal3">-</b><b>$</b></td>
+                       </tr>
+                       <tr>
+                        <td>Roller Coaster</td>
+                        <td>5$</td>
+                        <td class="qty"><input type="number" class="form-control" id="qtyroller" min="0" max="5" value="0"></td>
+                        <td><b id="cal4">-</b><b>$</b></td>
+                       </tr>
+                       <tr>
+                        <td>Ultramax Ride</td>
+                        <td>5$</td>
+                        <td class="qty"><input type="number" class="form-control" id="qtyultra" min="0" max="5" value="0"></td>
+                        <td><b id="cal5">-</b><b>$</b></td>
+                       </tr>
+                       <tr>
+                        <td><b>Indoor Games</b></td>
+                        </tr>
+                        <tr>
+                            <td>Table Tennis</td>
+                            <td>2$</td>
+                            <td class="qty"><input type="number" class="form-control" id="qtytennis" min="0" max="5" value="0"></td>
+                            <td><b id="cal6">-</b><b>$</b></td>
+                           </tr>
+                           <tr>
+                            <td>Air Hockey</td>
+                            <td>2$</td>
+                            <td class="qty"><input type="number" class="form-control" id="qtyhockey" min="0" max="5" value="0"></td>
+                            <td><b id="cal7">-</b><b>$</b></td>
+                           </tr>
+                           <tr>
+                            <td>Claw Crane</td>
+                            <td>2$</td>
+                            <td class="qty"><input type="number" class="form-control" id="qtycrane" min="0" max="5" value="0"></td>
+                            <td><b id="cal8">-</b><b>$</b></td>
+                           </tr>
+                           <tr>
+                            <td>Arcade Hoops</td>
+                            <td>2$</td>
+                            <td class="qty"><input type="number" class="form-control" id="qtyhoops" min="0" max="5" value="0"></td>
+                            <td><b id="cal9">-</b><b>$</b></td>
+                           </tr>
+                           <tr>
+                            <td>Pool</td>
+                            <td>2$</td>
+                            <td class="qty"><input type="number" class="form-control" id="qtypool" min="0" max="5" value="0"></td>
+                            <td><b id="cal10">-</b><b>$</b></td>
+                           </tr>
+                           <tr>
+                            <td>Indoor Playground</td>
+                            <td>2$</td>
+                            <td class="qty"><input type="number" class="form-control" id="qtyground" min="0" max="5" value="0"></td>
+                            <td><b id="cal11">-</b><b>$</b></td>
+                           </tr>
+                </tbody>
+              </table> 
+              <center><button type="button" onclick="calculate()" class="btn btn-success">Update</button></center>
+              <div class="d-flex justify-content-end">
+                <h5>Total: <span id="overall" class="price text-success">-</span><b>$</b></h5>
+              </div>
+            </div>
+            <div class="modal-footer border-top-0 d-flex justify-content-between">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" id="checkoutcustom" data-toggle="modal" data-target="#cartModal6" class="btn btn-success">Checkout</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="cartModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+             
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" id="scannn">
+                <h5 class="modal-title" id="exampleModalLabel">
+                    Your Ticket
+                  </h5>
+                <table class="table table-image">
+                <thead>
+                  <tr>
+                   
+                    <th scope="col">Name</th>
+                    <th scope="col">Product</th>
+                    <th scope="col">Qty</th>
+                    <th scope="col">Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><b><span id="shownnnn"></span></b></td>
+                    <td><b>Park Entry</b></td>
+                    <td class="qty"><b>1</b></td>
+                    <td><b>5$</b></td>
+                   </tr>
+                    <tr id="s1">
+                        <td></td>
+                        <td>Enterprise Ride</td>
+                        <td class="qty"><b><span id="span1"></span></b></td>
+                        <td><b id="span2"></b><b>$</b></td>
+                       </tr>
+                       <tr id="s2">
+                        <td></td>
+                        <td>Pirateship</td>
+                        <td class="qty"><b><span id="span3"></span></b></td>
+                        <td><b id="span4"></b><b>$</b></td>
+                       </tr>
+                       <tr id="s3">
+                        <td></td>
+                        <td>Kiddie Ride</td>
+                        <td class="qty"><b><span id="span5"></span></b></td>
+                        <td><b id="span6"></b><b>$</b></td>
+                       </tr>
+                       <tr id="s4">
+                        <td></td>
+                        <td>Ranger Ride</td>
+                        <td class="qty"><b><span id="span7"></span></b></td>
+                        <td><b id="span8"></b><b>$</b></td>
+                       </tr>
+                       <tr id="s5">
+                        <td></td>
+                        <td>Roller Coaster</td>
+                        <td class="qty"><b><span id="span9"></span></b></td>
+                        <td><b id="span10"></b><b>$</b></td>
+                       </tr>
+                       <tr id="s6">
+                        <td></td>
+                        <td>Ultramax Ride</td>
+                        <td class="qty"><b><span id="span11"></span></b></td>
+                        <td><b id="span12"></b><b>$</b></td>
+                       </tr>
+                        <tr id="s7">
+                            <td></td>
+                            <td>Table Tennis</td>
+                            <td class="qty"><b><span id="span13"></span></b></td>
+                        <td><b id="span14"></b><b>$</b></td>
+                           </tr>
+                           <tr id="s8">
+                            <td></td>
+                            <td>Air Hockey</td>
+                            <td class="qty"><b><span id="span15"></span></b></td>
+                        <td><b id="span16"></b><b>$</b></td>
+                           </tr>
+                           <tr id="s9">
+                            <td></td>
+                            <td>Claw Crane</td>
+                            <td class="qty"><b><span id="span17"></span></b></td>
+                        <td><b id="span18"></b><b>$</b></td>
+                           </tr>
+                           <tr id="s10">
+                            <td></td>
+                            <td>Arcade Hoops</td>
+                            <td class="qty"><b><span id="span19"></span></b></td>
+                        <td><b id="span20"></b><b>$</b></td>
+                           </tr>
+                           <tr id="s11">
+                            <td></td>
+                            <td>Pool</td>
+                            <td class="qty"><b><span id="span21"></span></b></td>
+                        <td><b id="span22"></b><b>$</b></td>
+                           </tr>
+                           <tr id="s12">
+                            <td></td>
+                            <td>Indoor Playground</td>
+                            <td class="qty"><b><span id="span23"></span></b></td>
+                        <td><b id="span24"></b><b>$</b></td>
+                           </tr>
+                </tbody>
+              </table> 
+              <div class="d-flex justify-content-end">
+                <h5>Total: <span id="overall1" class="price text-success">-</span><b>$</b></h5>
+              </div>
+            </div>
+            <div class="modal-footer border-top-0 d-flex justify-content-between">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" id="PrintPremiummm" class="btn btn-info">Print</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="cartModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Ticket Center
+              </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="table table-image">
+                <thead>
+                  <tr>
+                   
+                    <th scope="col">Product</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Qty</th>
+                    <th scope="col">Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><b>Park Entry</b>(Free access to play area)</td>
+                    <td>5$</td>
+                    <td class="qty"><input type="number" class="form-control" id="input1" min="1" max="1" value="1"></td>
+                    <td><b>5$</b></td>
+                   </tr>
+    
+                   <tr>
+                    <td><b>Basic Package</b><br>Any 3 rides</td>
+                    <td>10$</td>
+                    <td class="qty"><input type="number" class="form-control" id="input1" min="1" max="1" value="1"></td>
+                    <td><b>10$</b></td>
+                   </tr>
+                
+                </tbody>
+              </table> 
+              <div class="d-flex justify-content-end">
+                <h5>Total: <span class="price text-success"><b>15$</b></span></h5>
+              </div>
+            </div>
+            <div class="modal-footer border-top-0 d-flex justify-content-between">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" data-toggle="modal" data-target="#cartModal5" class="btn btn-success">Checkout</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="cartModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Ticket Center
+              </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="table table-image">
+                <thead>
+                  <tr>
+                   
+                    <th scope="col">Product</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Qty</th>
+                    <th scope="col">Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><b>Park Entry</b>(Free access to play area)</td>
+                    <td>5$</td>
+                    <td class="qty"><input type="number" class="form-control" id="input1" min="1" max="1" value="1"></td>
+                    <td><b>5$</b></td>
+                   </tr>
+    
+                   <tr>
+                    <td><b>Premium Package</b> <br> Any 5 rides <br>Unlimited indoor games <br>Any one meal</td>
+                    <td>25$</td>
+                    <td class="qty"><input type="number" class="form-control" id="input1" min="1" max="1" value="1"></td>
+                    <td><b>25$</b></td>
+                   </tr>
+                
+                </tbody>
+              </table> 
+              <div class="d-flex justify-content-end">
+                <h5>Total: <span class="price text-success"><b>30$</b></span></h5>
+              </div>
+            </div>
+            <div class="modal-footer border-top-0 d-flex justify-content-between">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" data-toggle="modal" data-target="#cartModal4" class="btn btn-success">Checkout</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="cartModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div id="printdone" class="modal-header border-bottom-0">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" id="scan">
+                <h5 class="modal-title" id="exampleModalLabel">
+                    Your Ticket
+                   </h5>     
+                <table class="table table-image">
+                <thead>
+                  <tr>
+                   
+                    <th scope="col">Name</th>
+                    <th scope="col">Product</th>
+                    <th scope="col">Qty</th>
+                    <th scope="col">Amount</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><b><span id="shownn"></span></b></td>
+                    <td><b>Park Entry</b></td>
+                    <td class="qty"><b>1</b></td>
+                    <td><b>5$</b></td>
+                   </tr>
+    
+                   <tr>
+                    <td></td>
+                    <td><b>Premium Package</b> <br> Any 5 rides <br>Unlimited indoor games <br>Any one meal</td>
+                    <td class="qty"><b>1</b></td>
+                    <td><b>25$</b></td>
+                   </tr>
+                
+                </tbody>
+              </table> 
+              <div class="d-flex justify-content-end">
+                <h5>Total: <span class="price text-success"><b>30$</b></span></h5>
+              </div>
+            </div>
+            <div class="modal-footer border-top-0 d-flex justify-content-between">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" id="PrintPremium" class="btn btn-info">Print</button>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <div class="modal fade" id="cartModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div id="printdone" class="modal-header border-bottom-0">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" id="scann">
+                <h5 class="modal-title" id="exampleModalLabel">
+                    Your Ticket
+                   </h5>
+                   
+              <table class="table table-image">
+                <thead>
+                  <tr>
+                   
+                    <th scope="col">Name</th>
+                    <th scope="col">Product</th>
+                    <th scope="col">Qty</th>
+                    <th scope="col">Amount</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><b><span id="shownnn"></span></b></td>
+                    <td><b>Park Entry</b></td>
+                    <td class="qty"><b>1</b></td>
+                    <td><b>5$</b></td>
+                   </tr>
+    
+                   <tr>
+                    <td></td>
+                    <td><b>Basic Package</b> <br> Any 3 rides</td>
+                    <td class="qty"><b>1</b></td>
+                    <td><b>10$</b></td>
+                   </tr>
+                
+                </tbody>
+              </table> 
+              <div class="d-flex justify-content-end">
+                <h5>Total: <span class="price text-success"><b>15$</b></span></h5>
+              </div>
+            </div>
+            <div class="modal-footer border-top-0 d-flex justify-content-between">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" id="PrintPremiumm" class="btn btn-info">Print</button>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <br><br>
+   <section>
+        <div class="row w-100">
+            <div class="col-lg-4 col-md-4 col-sm-12  countermaindiv">
+                <center>
+                    <div class="container cnt">
+                        <center>
+                            <br>
+                            <h1 class="counter">4.785</h1>
+                            <h5>User Ratings</h5>
+                        </center>
+                    </div>
+                </center>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+               <center>
+                   <div class="container cnt">
+                       <center>
+                           <br>
+                           <h1 class="counter">10,000</h1>
+                           <h5>Daily Visitors</h5>
+                       </center>
+                   </div>
+               </center>
+           </div>
+           <div class="col-lg-4 col-md-4 col-sm-12">
+               <center>
+                   <div class="container cnt">
+                       <center>
+                           <br>
+                           <h1 class="counter">4568</h1>
+                           <h5>Tickets Booked</h5>
+                       </center>
+                   </div>
+               </center>
+           </div>
+        </div>
+     </section>
+     <br><br>
+  <section class="section" id="contact">
+    <div class="contactdiv container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+    <div class="entertainment">
+        <center>
+            <h1 class="aboutheading">
+                Contact Us
+                <hr style="border: 1px solid #ffc107;width: 5%;">              
+            </h1>
+        </center>
+    </div>
+    <br><br>
+    
+    <div class="contactmain row">
+    <div class="col-lg-6 col-md-6 col-sm-12 mapcolor"  data-aos="flip-left" data-aos-anchor-placement="center-bottom" data-aos-delay="200" data-aos-duration="2000" >
+    <iframe class="mainmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.9014035954306!2d-74.13683288510414!3d40.45531916121648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24ecd58443ccd%3A0x2137997ca2385d5!2sKeansburg%20Amusement%20Park!5e0!3m2!1sen!2s!4v1667246740911!5m2!1sen!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 contactcolor"  data-aos="flip-right" data-aos-anchor-placement="center-bottom" data-aos-delay="200" data-aos-duration="2000" >
+        <br>
+     <i class="fa fa-map-marker map" aria-hidden="true"></i>
+    <a class="address" href=""> Address:</a>
+    <br>
+    
+    <p class="mapp">275 Beachway Ave, Keansburg, NJ 07734, United States</p>
+    <br>
+    <i class="fa fa-envelope-o map" aria-hidden="true"></i>
+    <a class="address" href=""> Email:</a>
+    <br>
+    
+    <p class="mapp">Info@KeansburgAmusementPark.com</p>
+    <br>
+    <i class="fa fa-phone map" aria-hidden="true"></i>
+    <a class="address" href=""> Contact:</a>
+    <br>
+    
+    <p class="mapp">732-495-1400</p>
+    </div>
+    </div>
+    <br>
+    <br>
+    
+    </div>
+    
+    </section>
+  <!-- Button trigger modal -->
+  <div class="feedback" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+    <center>
+        <h2 class="feedbackheading">
+        <button type="button" class="btn btn-primary btn-lg btnfeed" data-toggle="modal" data-target="#modelId">
+        <p class="feeda" href="">Give Us A Feedback</p>
+        </button>
+      </h2>
+      </center>
+  </div>
+ 
+  <!-- Modal -->
+  <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Feedback</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+            </div>
+            <div id="panel" class="panel-container">
+                <strong>How satisfied are you with our <br /> customer support performance?</strong>
+                <div class="ratings-container">
+                  <div class="rating">
+                    <img src="unhappy.png.png" alt="">
+                    <small>Unhappy</small>
+                  </div>
+          
+                  <div class="rating">
+                    <img src="download-removebg-preview.png" alt=""/>
+                    <small>Satisfied</small>
+                  </div>
+          
+                  <div class="rating active ">
+                    <img src="download__1_-removebg-preview.png" alt=""/>
+                    <small>Happy</small>
+                  </div>
+                </div>
+                <button class="btn145" id="send">Send Review</button>
+              </div>
+        </div>
+    </div>
+  </div>
+<br>
+<br>
+
+<section class="footer">
+<footer class="footer container">
+    <div class="footerdiv row">
+    <div class="col-lg-3 col-md-6 col-sm-12 foot">
+   <br><img class="footerimg" src="new-removebg-preview.png" alt="">
+   <br><br><br>
+   <ul class="row footul container" >
+    <li class="fbli">
+      <i class="fa fa-facebook-f fb"></i>
+    </li> 
+    <li class="twitterli">
+        <i class="fa fa-twitter fb" aria-hidden="true"></i>
+    </li>
+    <li class="instali">
+        <i class="fa fa-instagram fb" aria-hidden="true"></i>
+    </li>    
+    <li class="googleli">
+        <i class="fa fa-google fb" aria-hidden="true"></i>
+    </li>
+</ul>
+</div>
+    <div class="col-lg-2 col-md-6 col-sm-12 foot1">
+      <br>
+      <h1 class="footpage">Pages</h1>
+      <br><br>
+      <ul class="pageul ">
+        <li>
+            <a href="#hero">Home</a>
+        </li>
+        <br>
+        <li>
+            <a href="#about">About Us</a>
+        </li>
+        <br>
+        <li>
+            <a href="#rides">Entertainment</a>
+        </li>
+        <br>
+        <li>
+            <a href="#ticketsnprices">Tickets & Prices</a>
+        </li>
+        <br>
+        <li>
+            <a href="#contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12 foot1">
+        <br>
+        <h1 class="footpage">Hours</h1>
+        <br><br>
+        <ul class="pageul ">
+          <li>
+            <p>Mon - Closed</p>
+          </li>
+      
+          <li>
+            <p>Tue - 9:00 pm - 2:00 am</p>
+          </li>
+         
+          <li>
+            <p>Wed - 9:00 pm - 2:00 am</p>
+          </li>
+         
+          <li>
+            <p>Thu - 9:00 pm - 2:00 am</p>
+          </li>
+         
+          <li>
+            <p>Fri - 9:00 pm - 5:00 am</p>
+          </li>
+
+          <li>
+            <p>Sat - Noon - 2:00 am</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 foot">
+        <br>
+        <h1 class="footpage">Contact Us</h1>
+        <br><br>
+        <ul class="pageul" >
+         <li class="fbli">
+          
+             <p>  <i class="fa fa-map-marker footlocate" aria-hidden="true"></i> 275 Beachway Ave, Keansburg, NJ 07734, United States</p>
+         </li>
+         <li class="twitterli">
+             <a href=""> 
+                 <p> <i class="fa fa-envelope-o footlocate" aria-hidden="true"></i> Info@KeansburgAmusementPark.com </p>
+            </a>
+            <br><br>
+            <a href="">
+                <h3 class="footnum">732-495-1400</h3>
+            </a>      
+     </ul>
+     </div>
+     <div class="copyright">
+        <br>
+        Copyright 2022 Keansburg. All rights reserved. Privacy Policy
+        <br>
+        <br>
+     </div>
+    </section>
+    <a href="#" class="back-to-top d-flex allign-items-center justify-content-center active">
+        <svg  xmlns="http://www.w3.org/2000/svg" width="60" height="40" class="bi bi-arrow-up-short" viewBox="0 0 16 16">
+          <path  d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
+        </svg>
+         <i class="bi bi-arrow-up-short"></i>
+      </a>
+
+  </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="jquery-3.6.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="Counter-Up-master/jquery.counterup.min.js"></script>
+   <script>
+   $('.counter').counterUp({
+    delay: 10,
+    time: 1000
+});</script>
+   <script>
+    AOS.init(); 
+  </script> 
+ <script>
+    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?79318';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+  "enabled":true,
+  "chatButtonSetting":{
+      "backgroundColor":"#4dc247",
+      "ctaText":"",
+      "borderRadius":"25",
+      "marginLeft":"0",
+      "marginBottom":"10",
+      "marginRight":"50",
+      "position":"left"
+  },
+  "brandSetting":{
+      "brandName":"Keansburg - Amusement Park",
+      "brandSubTitle":"Typically replies within a day",
+      "brandImg":"http://127.0.0.1:5500/keansburg%20(2).png",
+      "welcomeText":"Hi there!\nHow can I help you?",
+      "messageText":"Hello, I have a question about {{page_link}}",
+      "backgroundColor":"#0a5f54",
+      "ctaText":"Start Chat",
+      "borderRadius":"25",
+      "autoShow":false,
+      "phoneNumber":"923372101878"
+  }
+};
+    s.onload = function() {
+        CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+</script>
+<script>
+$(document).ready(function(){
+  $("#entbtnn2").click(function(){
+    $("#restaurantblock").show();
+    $("#rideblock").hide();
+    $("#playblock").hide();
+    $("#indoorblock").hide();
+  });
+}); 
+
+$(document).ready(function(){
+  $("#entbtnn1").click(function(){
+    $("#restaurantblock").hide();
+    $("#rideblock").show();
+    $("#playblock").hide();
+    $("#indoorblock").hide();
+  });
+});  
+$(document).ready(function(){
+  $("#entbtnn3").click(function(){
+    $("#restaurantblock").hide();
+    $("#rideblock").hide();
+    $("#playblock").hide();
+    $("#indoorblock").show();
+  });
+});
+$(document).ready(function(){
+  $("#entbtnn4").click(function(){
+    $("#restaurantblock").hide();
+    $("#rideblock").hide();
+    $("#playblock").show();
+    $("#indoorblock").hide();
+  });
+});       
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+</script>
+<script src="script.js"></script>
+<script>
+const ratings = document.querySelectorAll('.rating')
+const ratingsContainer = document.querySelector('.ratings-container')
+const sendBtn = document.querySelector('#send')
+const panel = document.querySelector('#panel')
+let selectedRating = ''
+
+ratingsContainer.addEventListener('click', (e) => {
+    if(e.target.parentNode.classList.contains('rating')) {
+        removeActive()
+        e.target.parentNode.classList.add('active')
+        selectedRating = e.target.nextElementSibling.innerHTML
+    }
+    if(e.target.classList.contains('rating')) {
+        removeActive()
+        e.target.classList.add('rating')
+        selectedRating = e.target.nextElementSibling.innerHTML
+    }
+
+})
+
+sendBtn.addEventListener('click', (e) => {
+    panel.innerHTML = `
+        
+        Thank You!
+        
+        
+        We'll use your feedback to improve our customer support
+    `
+})
+
+function removeActive() {
+    for(let i = 0; i < ratings.length; i++) {
+        ratings[i].classList.remove('active')
+    }
+}
+
+
+</script>
+<script>
+    if(localStorage.getItem("code") == 1234)
+    {
+       
+    }
+    else{
+        window.location.href="login.html";
+    }
+</script>
+<script>
+    var p = document.getElementById('shown');
+    p.innerText = localStorage.getItem("username");
+</script>
+<script>
+    var m = document.getElementById('shownn');
+    m.innerText = localStorage.getItem("username");
+</script>
+<script>
+    var n = document.getElementById('shownnn');
+    n.innerText = localStorage.getItem("username");
+</script>
+<script>
+    var k = document.getElementById('shownnnn');
+    k.innerText = localStorage.getItem("username");
+</script>
+<script>
+    $(document).ready(function() {  
+  $('#cartModal').modal('show');
+});
+</script>
+<script>
+    function calculate()
+    {
+        var f = 5;
+        var g = 2;
+
+    var ent = document.getElementById('qtyent').value;
+    var ent1 = document.getElementById('span1');
+    ent1.innerText = ent;
+    var tprice = document.getElementById("cal");
+    var ent11 = document.getElementById('span2');
+    var total = f * ent;
+    ent11.innerText = total;
+    tprice.innerText = total;
+    var ss1 = document.getElementById('s1');
+    if(ent == 0)
+    {
+        ss1.style.display = "none";
+    }
+
+    var kiddie = document.getElementById('qtykiddie').value;
+    var kiddie1 = document.getElementById('span5');
+    kiddie1.innerText = kiddie;
+    var tprice1 = document.getElementById("cal1");
+    var kiddie11 = document.getElementById("span6");
+    var total1 = f * kiddie;
+    kiddie11.innerText = total1;
+    tprice1.innerText = total1;
+    var ss3 = document.getElementById('s3');
+    if(kiddie == 0)
+    {
+        ss3.style.display = "none";
+    }
+    
+
+    var pirate = document.getElementById('qtypirate').value;
+    var pirate1 = document.getElementById('span3');
+    pirate1.innerText = pirate;
+    var tprice2 = document.getElementById("cal2");
+    var pirate11 = document.getElementById('span4');
+    var total2 = f * pirate;
+    pirate11.innerText = total2;
+    tprice2.innerText = total2;
+    var ss2 = document.getElementById('s2');
+    if(pirate == 0)
+    {
+        ss2.style.display = "none";
+    }
+
+    var ranger = document.getElementById('qtyranger').value;
+    var ranger1 = document.getElementById('span7');
+    ranger1.innerText=ranger;
+    var tprice3 = document.getElementById("cal3");
+    var ranger11 = document.getElementById('span8');
+    var total3 = f * ranger;
+    ranger11.innerText=total3;
+    tprice3.innerText = total3;
+    var ss4 = document.getElementById('s4');
+    if(ranger == 0)
+    {
+        ss4.style.display = "none";
+    }
+
+    var roller = document.getElementById('qtyroller').value;
+    var roller1 = document.getElementById('span9');
+    roller1.innerText=roller;
+    var tprice4 = document.getElementById("cal4");
+    var roller11 = document.getElementById('span10');
+    var total4 = f * roller;
+    roller11.innerText=total4;
+    tprice4.innerText = total4;
+    var ss5 = document.getElementById('s5');
+    if(roller == 0)
+    {
+        ss5.style.display = "none";
+    }
+
+    var ultra = document.getElementById('qtyultra').value;
+    var ultra1 = document.getElementById('span11');
+    ultra1.innerText=ultra;
+    var tprice5 = document.getElementById("cal5");
+    var ultra11 = document.getElementById('span12');
+    var total5 = f * ultra;
+    ultra11.innerText=total5;
+    tprice5.innerText = total5;
+    var ss6 = document.getElementById('s6');
+    if(ultra == 0)
+    {
+        ss6.style.display = "none";
+    }
+
+
+    var tennis = document.getElementById('qtytennis').value;
+    var tennis1 = document.getElementById('span13');
+    tennis1.innerText=tennis;
+    var tprice6 = document.getElementById("cal6");
+    var tennis11 = document.getElementById('span14');
+    var total6 = g * tennis;
+    tennis11.innerText=total6;
+    tprice6.innerText = total6;
+    var ss7 = document.getElementById('s7');
+    if(tennis == 0)
+    {
+        ss7.style.display = "none";
+    }
+
+    var hockey = document.getElementById('qtyhockey').value;
+    var hockey1 = document.getElementById('span15');
+    hockey1.innerText=hockey;
+    var tprice7 = document.getElementById("cal7");
+    var hockey11 = document.getElementById('span16');
+    var total7 = g * hockey;
+    hockey11.innerText=total7;
+    tprice7.innerText = total7;
+    var ss8 = document.getElementById('s8');
+    if(hockey == 0)
+    {
+        ss8.style.display = "none";
+    }
+
+    var crane = document.getElementById('qtycrane').value;
+    var crane1 = document.getElementById('span17');
+    crane1.innerText=crane;
+    var tprice8 = document.getElementById("cal8");
+    var crane11 = document.getElementById('span18');
+    var total8 = g * crane;
+    crane11.innerText=total8;
+    tprice8.innerText = total8;
+    var ss9 = document.getElementById('s9');
+    if(crane == 0)
+    {
+        ss9.style.display = "none";
+    }
+
+    var hoops = document.getElementById('qtyhoops').value;
+    var hoops1 = document.getElementById('span19');
+    hoops1.innerText=hoops;
+    var tprice9 = document.getElementById("cal9");
+    var hoops11 = document.getElementById('span20');
+    var total9 = g * hoops;
+    hoops11.innerText=total9;
+    tprice9.innerText = total9;
+    var ss10 = document.getElementById('s10');
+    if(hoops == 0)
+    {
+        ss10.style.display = "none";
+    }
+
+    var pool = document.getElementById('qtypool').value;
+    var pool1 = document.getElementById('span21');
+    pool1.innerText=pool;
+    var tprice10 = document.getElementById("cal10");
+    var pool11 = document.getElementById('span22');
+    var total10 = g * pool;
+    pool11.innerText=total10;
+    tprice10.innerText = total10;
+    var ss11 = document.getElementById('s11');
+    if(pool == 0)
+    {
+        ss11.style.display = "none";
+    }
+
+    var ground = document.getElementById('qtyground').value;
+    var ground1 = document.getElementById('span23');
+    ground1.innerText=ground;
+    var tprice11 = document.getElementById("cal11");
+    var ground11 = document.getElementById('span24');
+    var total11 = g * ground;
+    ground11.innerText=total11;
+    tprice11.innerText = total11;
+    var ss12 = document.getElementById('s12');
+    if(ground == 0)
+    {
+        ss12.style.display = "none";
+    }
+
+    var overalltotal = document.getElementById('overall');
+    var d = document.getElementById('overall1');
+    overalltotal.innerText = 5 + total + total1 + total2 + total3 + total4 + total5 + total6 + total7 + total8 + total9 + total10 + total11;
+    d.innerText = 5 + total + total1 + total2 + total3 + total4 + total5 + total6 + total7 + total8 + total9 + total10 + total11;
+    
+
+}
+    
+    
+</script>
+<script src="jquery-3.6.1.js"></script>
+<script src="jQuery-Plugin-To-Print-Any-Part-Of-Your-Page-Print/dist/jQuery.print.min.js"></script>
+<script>
+   
+        $ ("#PrintPremium").click( function()
+        {
+      $("#scan").print();
+        });
+</script>
+<script>
+   
+    $ ("#PrintPremiumm").click( function()
+    {
+  $("#scann").print();
+    });
+</script>
+<script>
+   
+    $ ("#PrintPremiummm").click( function()
+    {
+  $("#scannn").print();
+    });
+</script>
+<script>
+function showTime(){
+  var date = new Date();
+  var h = date.getHours(); // 0 - 23
+  var m = date.getMinutes(); // 0 - 59
+  var s = date.getSeconds(); // 0 - 59
+  var session = "AM";
+  
+  if(h == 0){
+      h = 12;
+  }
+  
+  if(h > 12){
+      h = h - 12;
+      session = "PM";
+  }
+  
+  h = (h < 10) ? "0" + h : h;
+  m = (m < 10) ? "0" + m : m;
+  s = (s < 10) ? "0" + s : s;
+  
+  var time = h + ":" + m + ":" + s + " " + session;
+  document.getElementById("MyClockDisplay").innerText = time;
+  document.getElementById("MyClockDisplay").textContent = time;
+  
+  setTimeout(showTime, 1000);
+  
+}
+
+showTime();</script>
+
+</body>
+</html>
